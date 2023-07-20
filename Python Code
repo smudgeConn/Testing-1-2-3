@@ -1,0 +1,5 @@
+def number(lines):
+    line_numbers = []
+    for i in range(len(lines)):
+        line_numbers.append(str(i+1) + ": " + str(lines[i]))
+    return line_numbers
